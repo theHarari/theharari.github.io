@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>חג שבועות במשפחת הררי</title>
+  <style>
+    /* CSS styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, #b2e0ff, #88c2ff);
+}
+
+header {
+  background-color: #2980b9;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.section {
+  background-color: #fff;
+  padding: 40px;
+  margin-bottom: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  background-color: #f5f5f5;
+}
+
+.section:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  margin-top: 0;
+  color: #2980b9;
+  font-size: 24px;
+}
+
+.speakers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.speaker {
+  width: 250px;
+  margin: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.speaker:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.speaker img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.meal-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.meal-container h3 {
+  font-size: 20px;
+}
+
+.meal-description {
+  margin-top: 10px;
+}
+
+.hebrew-paragraph {
+  text-align: right;
+  direction: rtl;
+}
+
+.image-container {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #2980b9;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+</style>
+</head>
+<body>
+  <header>
+    <h1>חג שבועות במשפחת הררי</h1>
+  </header>
+
+  <section class="section">
+    <h2>רשימת המרצים באירוע</h2>
+    <div class="speakers-container">
+      <div class="speaker">
+        <h3>מרצה אחד</h3>
+        <img src="https://dummyimage.com/250x250/ccc/000" alt="Speaker 1">
+      </div>
+      <div class="speaker">
+        <h3>מרצה שני</h3>
+        <img src="https://dummyimage.com/250x250/ccc/000" alt="Speaker 2">
+      </div>
+      <div class="speaker">
+        <h3>מרצה שלישי</h3>
+        <img src="https://dummyimage.com/250x250/ccc/000" alt="Speaker 3">
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>ארוחות באירוע</h2>
+    <div class="meal-container">
+      <h3>ארוחת בוקר</h3>
+      <p class="meal-description">טוסטים, חלב, פירות וקורנפלקס</p>
+      <div class="image-container">
+        <img src="https://dummyimage.com/200x150/ccc/000" alt="Breakfast">
+      </div>
+    </div>
+    <div class="meal-container">
+      <h3>ארוחת צהריים</h3>
+      <p class="meal-description">סלט ירקות עם חסה, עגבניות, ופטריות</p>
+      <div class="image-container">
+        <img src="https://dummyimage.com/200x150/ccc/000" alt="Lunch">
+      </div>
+    </div>
+    <div class="meal-container">
+      <h3>ארוחת ערב</h3>
+      <p class="meal-description">פיצות מרגריטה, פסטה עם רוטב עגבניות</p>
+      <div class="image-container">
+        <img src="https://dummyimage.com/200x150/ccc/000" alt="Dinner">
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>שבועות</h2>
+    <p class="hebrew-paragraph">
+      חג שבועות הוא חג יהודי שנפל בחמישים היום לעומר, לספירת העומר מיום הקודם לפסח. 
+      בחג זה מסיימים את חג הפסח ומתחילים לספור את העומר, שהיה זרע השעורה בבית המקדש.
+    </p>
+    <div class="image-container">
+      <img src="https://dummyimage.com/200x150/ccc/000" alt="Shavuot">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 חג שבועות במשפחת הררי</p>
+  </footer>
+</body>
+</html>
