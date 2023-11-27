@@ -1,0 +1,52 @@
+
+h1 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    /* height: 200px; Set the desired height */
+    color: #444654;
+}
+
+.text-body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-style: italic;
+    color: teal;
+}
+
+body {
+  background-color: #87cefa; /* Light Sky Blue */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  /* height: 100vh; Set the height to the viewport height */
+}
+
+.image-container-family, .Pop-image, .image-container-nog-michael, .image-container-nog, .image-container-sleeping-family {
+    position: relative;
+    width: 30%;
+    height: 30%;
+    overflow: hidden;
+  }
+  .image-container-nog-michael{
+    position: relative;
+    width: 10%;
+    height: 10%;
+    overflow: hidden;
+  }
+  /* Style for the image */
+  img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    border-radius: 300px;  
+    filter: blur(5px);
+}
+  
+  /* Hover effect */
+  .image-container-nog:hover img,.image-container-nog-michael:hover img,.image-container-sleeping-family:hover img, .image-container-family:hover img, .Pop-image:hover img{
+    transform: scale(1.1);
+    filter: blur(0px);
+  }
